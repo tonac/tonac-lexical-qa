@@ -1,0 +1,70 @@
+{
+  "name": "@lexical/eslint-plugin",
+  "description": "Lexical specific linting rules for ESLint",
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "eslintplugin",
+    "lexical",
+    "editor"
+  ],
+  "version": "0.51.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facebook/lexical.git",
+    "directory": "packages/lexical-eslint-plugin"
+  },
+  "main": "./dist/LexicalEslintPlugin.js",
+  "types": "./dist/typescript-too-old.d.ts",
+  "bugs": {
+    "url": "https://github.com/facebook/lexical/issues"
+  },
+  "homepage": "https://lexical.dev/docs/packages/lexical-eslint-plugin",
+  "sideEffects": false,
+  "peerDependencies": {
+    "eslint": ">=9.0.0",
+    "typescript": ">=5.2"
+  },
+  "exports": {
+    ".": {
+      "source": "./src/index.ts",
+      "types@<5.2": "./dist/typescript-too-old.d.ts",
+      "types": "./dist/index.d.ts",
+      "development": "./dist/LexicalEslintPlugin.dev.js",
+      "production": "./dist/LexicalEslintPlugin.prod.js",
+      "default": "./dist/LexicalEslintPlugin.js"
+    }
+  },
+  "devDependencies": {
+    "@types/eslint": "^9.6.1",
+    "@types/estree": "^1.0.9"
+  },
+  "module": "./dist/LexicalEslintPlugin.js",
+  "files": [
+    "dist",
+    "src",
+    "!src/__tests__",
+    "!src/__bench__",
+    "!src/__mocks__",
+    "!src/**/*.test.ts",
+    "!src/**/*.test.tsx",
+    "!src/**/*.bench.ts",
+    "!src/**/*.bench.tsx",
+    "README.md",
+    "LICENSE"
+  ],
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/typescript-too-old.d.ts"
+      ]
+    }
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "type": "module"
+}
