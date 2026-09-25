@@ -18,7 +18,7 @@ overrides:
   serialize-javascript: '>=7.0.5'
   sharp: link:./stubs/empty
   tmp: '>=0.2.6'
-  yjs: ^13.6.31
+  yjs: ^13.6.32
   qs: '>=6.15.2'
 
 importers:
@@ -29,8 +29,8 @@ importers:
         specifier: ^7.7.4
         version: 7.7.4
       yjs:
-        specifier: ^13.6.31
-        version: 13.6.31
+        specifier: ^13.6.32
+        version: 13.6.32
     devDependencies:
       '@babel/core':
         specifier: ^8.0.1
@@ -289,7 +289,7 @@ importers:
         version: 5.0.0(@opentelemetry/api@1.9.0)(@types/node@26.4.1)(@vitest/browser-playwright@5.0.0)(@vitest/ui@5.0.0)(happy-dom@20.9.0)(jsdom@30.0.1)(vite@8.2.2(@types/node@26.4.1)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(tsx@4.23.12)(yaml@2.9.0))
       y-websocket:
         specifier: ^2.1.0
-        version: 2.1.0(yjs@13.6.31)
+        version: 2.1.0(yjs@13.6.32)
 
   dev-examples/dom-import:
     dependencies:
@@ -1364,10 +1364,10 @@ importers:
         version: 19.2.5(react@19.2.5)
       y-websocket:
         specifier: ^2.1.0
-        version: 2.1.0(yjs@13.6.31)
+        version: 2.1.0(yjs@13.6.32)
       yjs:
-        specifier: ^13.6.31
-        version: 13.6.31
+        specifier: ^13.6.32
+        version: 13.6.32
     devDependencies:
       '@babel/plugin-transform-flow-strip-types':
         specifier: ^8.0.1
@@ -1475,8 +1475,8 @@ importers:
         specifier: '>=5.2'
         version: 6.0.3
       yjs:
-        specifier: ^13.6.31
-        version: 13.6.31
+        specifier: ^13.6.32
+        version: 13.6.32
     devDependencies:
       '@types/jest-axe':
         specifier: ^3.5.9
@@ -1758,8 +1758,8 @@ importers:
         version: 6.0.3
     devDependencies:
       yjs:
-        specifier: ^13.6.31
-        version: 13.6.31
+        specifier: ^13.6.32
+        version: 13.6.32
 
 packages:
 
@@ -13302,20 +13302,20 @@ packages:
   y-leveldb@0.1.2:
     resolution: {integrity: sha512-6ulEn5AXfXJYi89rXPEg2mMHAyyw8+ZfeMMdOtBbV8FJpQ1NOrcgi6DTAcXof0dap84NjHPT2+9d0rb6cFsjEg==}
     peerDependencies:
-      yjs: ^13.6.31
+      yjs: ^13.6.32
 
   y-protocols@1.0.7:
     resolution: {integrity: sha512-YSVsLoXxO67J6eE/nV4AtFtT3QEotZf5sK5BHxFBXso7VDUT3Tx07IfA6hsu5Q5OmBdMkQVmFZ9QOA7fikWvnw==}
     engines: {node: '>=16.0.0', npm: '>=8.0.0'}
     peerDependencies:
-      yjs: ^13.6.31
+      yjs: ^13.6.32
 
   y-websocket@2.1.0:
     resolution: {integrity: sha512-WHYDRqomaGkkaujtowCDwL8KYk+t1zQCGIgKyvxvchhjTQlMgWXRHJK+FDEcWmHA7I7o/4fy0eniOrtmz0e4mA==}
     engines: {node: '>=16.0.0', npm: '>=8.0.0'}
     hasBin: true
     peerDependencies:
-      yjs: ^13.6.31
+      yjs: ^13.6.32
 
   y18n@4.0.3:
     resolution: {integrity: sha512-JKhqTOwSrqNA1NY5lSztJ1GrBiUodLMmIZuLiDaMRJ+itFd+ABVE8XBjOvIWL+rSqNDC74LCSFmlb/U4UZ4hJQ==}
@@ -13360,8 +13360,8 @@ packages:
     resolution: {integrity: sha512-4UEqdc2RYGHZc7Doyqkrqiln3p9X2DZVxaGbwhn2pi7MrRagKaOcIKe8L3OxYcbhXLgLFUS3zAYuQjKBQgmuNg==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=23}
 
-  yjs@13.6.31:
-    resolution: {integrity: sha512-Eq+5BRfbeGyqGVrTJL3bEcr8gKkxPuyuoHmAwpk52fDb8kOVMrfVSTRPd6yiGgX5Fskb96qCRjzjbRjrL4YEnw==}
+  yjs@13.6.32:
+    resolution: {integrity: sha512-lfiJIIC4Xayt5ItynE407ehlE03pCjeOc4hkR4yxxvvNJ4kuiN25B0g+Qp8XagYz361LLL7DCzR5bvFJ81QKtQ==}
     engines: {node: '>=16.0.0', npm: '>=8.0.0'}
 
   yocto-queue@0.1.0:
@@ -28534,27 +28534,27 @@ snapshots:
   xtend@4.0.2:
     optional: true
 
-  y-leveldb@0.1.2(yjs@13.6.31):
+  y-leveldb@0.1.2(yjs@13.6.32):
     dependencies:
       level: 6.0.1
       lib0: 0.2.117
-      yjs: 13.6.31
+      yjs: 13.6.32
     optional: true
 
-  y-protocols@1.0.7(yjs@13.6.31):
+  y-protocols@1.0.7(yjs@13.6.32):
     dependencies:
       lib0: 0.2.117
-      yjs: 13.6.31
+      yjs: 13.6.32
 
-  y-websocket@2.1.0(yjs@13.6.31):
+  y-websocket@2.1.0(yjs@13.6.32):
     dependencies:
       lib0: 0.2.117
       lodash.debounce: 4.0.8
-      y-protocols: 1.0.7(yjs@13.6.31)
-      yjs: 13.6.31
+      y-protocols: 1.0.7(yjs@13.6.32)
+      yjs: 13.6.32
     optionalDependencies:
       ws: 6.2.3
-      y-leveldb: 0.1.2(yjs@13.6.31)
+      y-leveldb: 0.1.2(yjs@13.6.32)
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -28611,7 +28611,7 @@ snapshots:
       y18n: 5.0.8
       yargs-parser: 22.0.0
 
-  yjs@13.6.31:
+  yjs@13.6.32:
     dependencies:
       lib0: 0.2.117
 

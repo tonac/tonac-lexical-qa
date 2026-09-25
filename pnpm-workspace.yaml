@@ -14,7 +14,7 @@ minimumReleaseAgeExclude:
   - 'lexical'
 
 catalog:
-  yjs: '^13.6.31'
+  yjs: '^13.6.32'
 
 overrides:
   '@rollup/plugin-terser>terser': '5.51.2'

@@ -51,7 +51,7 @@
     "react-day-picker": "^9.14.0",
     "react-dom": "^19.2.5",
     "y-websocket": "^2.1.0",
-    "yjs": "^13.6.31"
+    "yjs": "^13.6.32"
   },
   "devDependencies": {
     "@babel/plugin-transform-flow-strip-types": "^8.0.1",
