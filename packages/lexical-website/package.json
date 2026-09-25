@@ -41,7 +41,7 @@
     "@vercel/analytics": "^2.0.1",
     "@vercel/speed-insights": "^2.0.0",
     "clsx": "^2.1.1",
-    "docusaurus-plugin-typedoc": "^1.4.2",
+    "docusaurus-plugin-typedoc": "^1.4.3",
     "fs-extra": "^11.3.4",
     "lexical": "workspace:*",
     "mermaid": "^11.16.1",
