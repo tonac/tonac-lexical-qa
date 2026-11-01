@@ -63,7 +63,7 @@
     "tailwindcss": "^4.3.3",
     "typedoc": "^0.28.20",
     "typescript": "^6.0.3",
-    "webpack": "^5.110.3"
+    "webpack": "^5.112.2"
   },
   "browserslist": {
     "production": [
